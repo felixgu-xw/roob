@@ -17,9 +17,8 @@ dns:
 proxies:
     - { name: '维护端口', type: ss, server: gtm1.ktmwan.com, port: 27250, cipher: chacha20-ietf-poly1305, password: c5f6a1f3-21d7-49f5-a5af-488d490bbb6e, udp: true }
     - { name: '请不要删除', type: ss, server: gtm1.ktmwan.com, port: 27250, cipher: chacha20-ietf-poly1305, password: c5f6a1f3-21d7-49f5-a5af-488d490bbb6e, udp: true }
-    - { name: 套餐到期：2024-05-21, type: ss, server: gtm1.ktmwan.com, port: 27250, cipher: chacha20-ietf-poly1305, password: c5f6a1f3-21d7-49f5-a5af-488d490bbb6e, udp: true }
 proxy-groups:
-    - { name: KTM Cloud, type: select, proxies: ['剩余流量：1001.82 GB', '距离下次重置剩余：14 天', 套餐到期：2024-05-21] }
+    - { name: 维护文件, type: select, proxies: ['维护端口', '请不要删除'] }
 rules:
     - 'DOMAIN-SUFFIX,mzstatic.com,DIRECT'
     - 'DOMAIN-SUFFIX,itunes.apple.com,DIRECT'
