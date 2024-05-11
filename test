@@ -22,8 +22,6 @@ proxy-groups:
 rules:
     - 'DOMAIN-SUFFIX,mzstatic.com,DIRECT'
     - 'DOMAIN-SUFFIX,itunes.apple.com,DIRECT'
-    - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
-    - 'DOMAIN-SUFFIX,icloud-content.com,DIRECT'
     - 'DOMAIN-SUFFIX,me.com,DIRECT'
     - 'DOMAIN-SUFFIX,aaplimg.com,DIRECT'
     - 'DOMAIN-SUFFIX,cdn20.com,DIRECT'
