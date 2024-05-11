@@ -15,8 +15,8 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: '维护端口', type: ss, server: baidu.com, port: 27250, cipher: chacha20-ietf-poly1305, password: c5f6a1f3-21d7-49f5-a5af-488d490bbb6e, udp: true }
-    - { name: '请不要删除', type: ss, server: baidu.com, port: 27250, cipher: chacha20-ietf-poly1305, password: c5f6a1f3-21d7-49f5-a5af-488d490bbb6e, udp: true }
+    - { name: '维护端口', type: ss, server: baidu.com, port: 27250, cipher: chacha20-ietf-poly6666, password: c5f6a1f3-21d7-49f5-a5af-488d4906666, udp: true }
+    - { name: '请不要删除', type: ss, server: baidu.com, port: 27250, cipher: chacha20-ietf-poly6666, password: c5f6a1f3-21d7-49f5-a5af-488d4906666, udp: true }
 proxy-groups:
     - { name: 维护文件, type: select, proxies: ['维护端口', '请不要删除'] }
 rules:
