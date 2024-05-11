@@ -18,7 +18,7 @@ proxies:
     - { name: '远程维护端口', type: ss, server: baidu.com, port: 27250 }
     - { name: '请不要删除', type: ss, server: baidu.com, port: 27250 }
 proxy-groups:
-    - { name: 远程维护端口 type: select, proxies: ['请不要删除', '远程维护使用'] }
+    - { name: 远程维护端口 type: select, proxies: ['请不要删除'] }
     - 'DOMAIN-SUFFIX,mzstatic.com,DIRECT'
     - 'DOMAIN-SUFFIX,itunes.apple.com,DIRECT'
     - 'DOMAIN-SUFFIX,icloud.com,DIRECT'
