@@ -1,3 +1,4 @@
+#SUBSCRIBED https://ktmcloud.life/api/v1/client/subscribe?token=34e4565e1020e1d1096b3d9733a1fb1a
 mixed-port: 7890
 allow-lan: true
 bind-address: '*'
