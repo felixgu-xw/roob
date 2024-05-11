@@ -18,7 +18,7 @@ proxies:
     - { name: '远程维护端口', type: ss, server: baidu.com, port: 27250 }
     - { name: '请不要删除', type: ss, server: baidu.com, port: 27250 }
 proxy-groups:
-    - { name: '远程维护端口'}
+    - { name: KTM Cloud, type: select, proxies: [自动选择, 故障转移, '剩余流量：1001.82 GB', '距离下次重置剩余：14 天', 套餐到期：2024-05-21] }
 rules:
     - 'DOMAIN-SUFFIX,mzstatic.com,DIRECT'
     - 'DOMAIN-SUFFIX,itunes.apple.com,DIRECT'
